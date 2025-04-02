@@ -1,0 +1,53 @@
+# OS / Editor bestanden
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs
+logs/
+*.log
+
+# Geheimen & credentials
+*.env
+*.pem
+*.key
+*.crt
+secrets/
+
+# Build artifacts
+dist/
+build/
+node_modules/
+coverage/
+
+# CI/CD
+*.retry
+*.pid
+*.seed
+*.lock
+
+# Docker
+*.tar
+docker-compose.override.yml
+
+# Python (als je tools als syft/trivy gebruikt)
+__pycache__/
+*.pyc
+
+# Terraform/Ansible/etc.
+*.tfstate
+*.tfstate.*
+*.bak
+*.retry
+*.orig
+inventory.ini
+
+# Gitea & Drone config (die je niet wilt pushen als ze secrets bevatten)
+custom/conf/app.ini
+.drone.yml.secrets
+
+# Cloud-init temp files
+/tmp/user-*.yml
+
+# Zip bestanden
+*.zip
