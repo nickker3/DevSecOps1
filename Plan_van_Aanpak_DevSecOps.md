@@ -33,8 +33,8 @@ Een volledig functionele DevSecOps-bouwstraat opzetten met een CI/CD-pipeline, v
 ## 🛠️ Stappenplan
 
 ### 1. **Voorbereiding**
-- ✅ Repo aanmaken (bijv. GitHub/Gitea) "https://www.github.com/nickker3/DevSecOps1 .git"
-- Webapplicatie kiezen (bijv. Node.js app)
+- ✅ Repo aanmaken (bijv. GitHub/Gitea)          "https://www.github.com/nickker3/DevSecOps1 .git"
+- ✅Webapplicatie kiezen (bijv. Node.js app)        "https://uptime.kuma.pet/"
 - Keuze maken voor CI/CD-tool
 - ISO/VM-voorbereiding
 
