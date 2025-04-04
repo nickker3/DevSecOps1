@@ -36,12 +36,12 @@ Een volledig functionele DevSecOps-bouwstraat opzetten met een CI/CD-pipeline, v
 - ✅ Repo aanmaken (bijv. GitHub/Gitea)          "https://www.github.com/nickker3/DevSecOps1 .git"
 - ✅Webapplicatie kiezen (bijv. Node.js app)        "https://uptime.kuma.pet/"
 - ✅Keuze maken voor CI/CD-tool                    "https://www.drone.io/"
-- ISO/VM-voorbereiding
+- ✅ISO/VM-voorbereiding                           Vm200 "Gitea" aangemaakt!
 
 ### 2. **VM(s) aanmaken**
-- Script gebruiken (`Create_VM_HA.sh`)
-- IP's, namen en SSH toegang configureren
-- Testen of VMs correct starten
+- ✅Script gebruiken (`Create_VM_HA.sh`)
+- ✅IP's, namen en SSH toegang configureren
+- ✅Testen of VMs correct starten
 
 ### 3. **Gitea installeren**
 - Handmatig of via cloud-init
