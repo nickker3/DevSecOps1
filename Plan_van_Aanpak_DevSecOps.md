@@ -44,24 +44,24 @@ Een volledig functionele DevSecOps-bouwstraat opzetten met een CI/CD-pipeline, v
 - ✅Testen of VMs correct starten
 
 ### 3. **Gitea installeren**
-- Handmatig of via cloud-init
-- Webinterface instellen (admin, database)
-- Repositories beheren
+- ✅Handmatig of via cloud-init
+- ✅Webinterface instellen (admin, database)
+- ✅Repositories beheren
 
   
 ###3.1 **Docker installeren**
--Handmatig installeren
--docker automatisch starten
+-✅Handmatig installeren
+-✅docker automatisch starten
 
 ### 4. **CI/CD inrichten**
-- Build- en deploy-fase opzetten (Drone CI )
-- Build = app bouwen
-- Deploy = automatisch naar productie-VM
+- ✅Build- en deploy-fase opzetten (Drone CI )
+- ✅Build = app bouwen
+- ✅Deploy = automatisch naar productie-VM
 
 ### 5. **Webapp hosten**
-- Webapp kiezen en deployen op VM
-- Zorg voor werkende webserver (bijv. nginx of direct via app)
-- Pipeline moet push → build → deploy → live resultaat tonen
+- ✅Webapp kiezen en deployen op VM
+- ✅Zorg voor werkende webserver (bijv. nginx of direct via app)
+- ✅Pipeline moet push → build → deploy → live resultaat tonen
 
 ### 6. **Opname maken**
 - Demonstratie opnemen van commit tot live app
